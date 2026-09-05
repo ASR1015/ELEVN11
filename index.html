@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ELEVN11 — Jerseys that look match-ready</title>
+  <meta name="description" content="ELEVN11 premium football, cricket, gym and racing jersey storefront." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">FREE SHIPPING ABOVE ₹1,499 · CASH ON DELIVERY AVAILABLE</div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="ELEVN11 home">ELEVN<span>11</span></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#football">Football</a>
+      <a href="#collections">Cricket & Gym</a>
+      <a href="#collections">F1 Racing</a>
+      <a href="#collections">Marvel</a>
+    </nav>
+    <button class="cart-button" id="cartButton" type="button">Cart <span id="cartCount">0</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="football">
+      <div class="hero-copy">
+        <p class="eyebrow">26/27 DROP · MADRID AWAY</p>
+        <h1>Make the jersey look <em>real</em> before you ask people to buy it.</h1>
+        <p class="hero-text">A clean, premium storefront built around recognizable kits, sharp product presentation and an easy buy flow.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#featured">Shop the Madrid Away</a>
+          <a class="button button-ghost" href="#collections">Explore collections</a>
+        </div>
+        <div class="trust-row" aria-label="Store benefits">
+          <span>✓ Easy size selection</span>
+          <span>✓ COD friendly</span>
+          <span>✓ Fast checkout</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-badge">FLAGSHIP DROP</div>
+        <img src="assets/real-madrid-away.svg" alt="ELEVN11 illustration of the Real Madrid 26/27 away jersey" />
+      </div>
+    </section>
+
+    <section class="featured" id="featured">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FEATURED JERSEY</p>
+          <h2>Real Madrid 26/27 Away Jersey</h2>
+        </div>
+        <span class="pill">NEW SEASON</span>
+      </div>
+
+      <div class="product-layout">
+        <div class="product-media">
+          <img src="assets/real-madrid-away.svg" alt="Real Madrid 26/27 Away jersey product view" />
+          <div class="media-note">Storefront visual. Swap with your own/licensed product photography before production launch.</div>
+        </div>
+
+        <div class="product-info">
+          <p class="product-kicker">REAL MADRID · AWAY · 2026/27</p>
+          <h3>Real Madrid 26/27 Away Jersey</h3>
+          <div class="price-row">
+            <span class="price">₹1,999</span>
+            <span class="mrp">₹2,999</span>
+            <span class="discount">33% OFF</span>
+          </div>
+          <p class="product-copy">Deep green away-kit look with clean shoulder detailing and a match-day silhouette. The product page keeps the jersey dominant so customers immediately understand what they are buying.</p>
+
+          <div class="size-block">
+            <div class="size-header">
+              <strong>Select size</strong>
+              <button type="button" class="link-button" id="sizeGuideButton">Size guide</button>
+            </div>
+            <div class="sizes" id="sizes">
+              <button type="button" data-size="S">S</button>
+              <button type="button" data-size="M">M</button>
+              <button type="button" data-size="L">L</button>
+              <button type="button" data-size="XL">XL</button>
+              <button type="button" data-size="XXL">XXL</button>
+            </div>
+          </div>
+
+          <button type="button" class="button button-primary add-to-cart" id="addToCart">Choose a size</button>
+          <p class="microcopy">Reference model: adidas JZ7219. Do not market this item as “Authentic” unless your stock is genuinely authentic and sourced accordingly.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="collections" id="collections">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SHOP BY ENERGY</p>
+          <h2>Built for fans, not catalogue fatigue.</h2>
+        </div>
+      </div>
+      <div class="collection-grid">
+        <article class="collection-card card-football"><span>Football</span><strong>Club drops</strong><p>Recognizable kits, clean product-first cards.</p></article>
+        <article class="collection-card card-cricket"><span>Cricket & Gym</span><strong>Performance wear</strong><p>Training fits and fan jerseys in one lane.</p></article>
+        <article class="collection-card card-racing"><span>F1 Racing</span><strong>Race weekend</strong><p>High-impact teamwear and motorsport edits.</p></article>
+        <article class="collection-card card-marvel"><span>Marvel</span><strong>Fanwear</strong><p>Graphic merch without cluttering the main jersey experience.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-header">
+      <h2>Your cart</h2>
+      <button id="closeCart" type="button" aria-label="Close cart">×</button>
+    </div>
+    <div id="cartContent" class="cart-content">
+      <p>Your cart is empty.</p>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <footer>
+    <a class="brand" href="#top">ELEVN<span>11</span></a>
+    <p>Premium fanwear storefront concept.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
