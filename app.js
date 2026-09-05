@@ -47,7 +47,7 @@ addToCart.addEventListener('click', () => {
       <div>
         <strong>Real Madrid 26/27 Away Jersey</strong>
         <span>Size ${selectedSize} · Qty ${cartQty}</span>
-        <p><strong>₹1,999</strong></p>
+        <p><strong>₹1,999</strong> <span>demo price</span></p>
       </div>
     </div>
   `;
