@@ -1,0 +1,48 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="50" x2="760" y2="1040" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F8F5"/>
+      <stop offset="1" stop-color="#EAECE8"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="260" y1="200" x2="640" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C3A32"/>
+      <stop offset="0.58" stop-color="#082E29"/>
+      <stop offset="1" stop-color="#061F1C"/>
+    </linearGradient>
+    <filter id="shadow" x="50" y="90" width="800" height="930" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="30" stdDeviation="24" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1100" rx="48" fill="url(#bg)"/>
+  <ellipse cx="450" cy="950" rx="270" ry="48" fill="#0D1715" fill-opacity="0.10"/>
+  <g filter="url(#shadow)">
+    <path d="M313 194C339 166 373 152 411 147H489C527 152 561 166 587 194L722 272L647 438L594 407V928H306V407L253 438L178 272L313 194Z" fill="url(#shirt)"/>
+    <path d="M411 147C414 184 430 207 450 207C470 207 486 184 489 147" stroke="#D6E7DF" stroke-width="18" stroke-linecap="round"/>
+    <path d="M308 198L246 234L211 307" stroke="#E7F0EA" stroke-width="12" stroke-linecap="round"/>
+    <path d="M337 184L275 220L241 293" stroke="#E7F0EA" stroke-width="12" stroke-linecap="round"/>
+    <path d="M592 198L654 234L689 307" stroke="#E7F0EA" stroke-width="12" stroke-linecap="round"/>
+    <path d="M563 184L625 220L659 293" stroke="#E7F0EA" stroke-width="12" stroke-linecap="round"/>
+    <path d="M307 408L594 408" stroke="#0F4A41" stroke-width="2" opacity="0.6"/>
+    <g opacity="0.34">
+      <path d="M329 274C371 303 398 332 414 361" stroke="#2C655C" stroke-width="5"/>
+      <path d="M571 274C529 303 502 332 486 361" stroke="#2C655C" stroke-width="5"/>
+      <path d="M334 510H566" stroke="#2A5C54" stroke-width="3"/>
+      <path d="M334 660H566" stroke="#2A5C54" stroke-width="3"/>
+      <path d="M334 810H566" stroke="#2A5C54" stroke-width="3"/>
+    </g>
+    <circle cx="365" cy="330" r="43" fill="#F4F0DC" stroke="#D8C16C" stroke-width="5"/>
+    <circle cx="365" cy="330" r="31" stroke="#173E77" stroke-width="4"/>
+    <text x="365" y="338" text-anchor="middle" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="800" fill="#173E77">RM</text>
+    <path d="M346 284L365 262L384 284" stroke="#D8C16C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(523 296)">
+      <path d="M0 0L16 0L8 18H-8L0 0Z" fill="#F0F2EE"/>
+      <path d="M18 0L34 0L26 18H10L18 0Z" fill="#F0F2EE"/>
+      <path d="M36 0L52 0L44 18H28L36 0Z" fill="#F0F2EE"/>
+    </g>
+    <text x="450" y="494" text-anchor="middle" font-size="47" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#F3F1E9" letter-spacing="1">Emirates</text>
+    <text x="450" y="536" text-anchor="middle" font-size="23" font-family="Arial, Helvetica, sans-serif" font-weight="600" fill="#F3F1E9" letter-spacing="5">FLY BETTER</text>
+    <text x="450" y="760" text-anchor="middle" font-size="20" font-family="Arial, Helvetica, sans-serif" font-weight="600" fill="#D6E7DF" opacity="0.38" letter-spacing="8">MADRID</text>
+  </g>
+  <text x="74" y="1000" font-size="19" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#0C3A32" letter-spacing="4">REAL MADRID · 26/27 AWAY</text>
+  <text x="74" y="1038" font-size="14" font-family="Arial, Helvetica, sans-serif" fill="#55635E">Original storefront illustration — replace with owned/licensed product photography for production.</text>
+</svg>
